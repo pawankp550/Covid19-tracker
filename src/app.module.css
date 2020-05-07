@@ -1,6 +1,28 @@
+body {
+    margin: 0px !important;
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    padding: 10px 0px;
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+/* .container:after {
+    content: "";
+    background: url("./images/covid-19-coronavirus-outbreak-design-with-virus-cell-microscopic-view-blue-background-illustration-template-dangerous-sars-epidemic-theme-promotional-banner-flyer_1314-2644.jpg"); 
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
+    background-size: 100% 100%; 
+  } */
