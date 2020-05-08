@@ -35,7 +35,7 @@
 }
 
 .infected {
-    background: #56CCF2;  /* fallback for old browsers */
+    background: rgb(77, 142, 228);  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, rgb(77, 142, 228), #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, rgb(77, 142, 228), #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
@@ -43,7 +43,7 @@
 
 .recovered {
     background: #56CCF2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, rgb(77, 142, 228), #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(59, 219, 185), rgb(86, 242, 221));  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, rgb(59, 219, 185), rgb(86, 242, 221)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
